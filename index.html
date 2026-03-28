@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Felipe Pimentel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Info</a>
+    <a href="styling.html">Styling</a>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <h1>FELIPE PIMENTEL</h1>
+  </header>
+
+  <main class="info-page">
+
+    <section class="bio-block">
+      <p class="label">BIO</p>
+      <p>
+        Stylist and fashion consultant based in São Paulo.<br />
+        With 2 years of experience working at UMS458-LL, I have developed
+        a sharp eye for urban aesthetics and contemporary Brazilian street culture.
+        My work crosses the territories of music, visual communication, and fashion,
+        building a language grounded in authenticity and creative rigor.
+      </p>
+      <p>
+        Currently in my 4th semester of Fashion Business at Universidade Anhembi Morumbi,
+        I bring together academic formation and practical industry experience,
+        collaborating with artists, brands, and audiovisual productions.
+      </p>
+      <p>
+        My styling practice is marked by an attentive look at subcultural references,
+        the relationship between clothing and identity, and the articulation between
+        concept and execution — from set preparation to final image.
+      </p>
+    </section>
+
+    <section class="contact-block">
+      <p class="label">CONTATO</p>
+      <p><a href="https://wa.me/5511953866514" target="_blank">+55 11 95386-6514</a></p>
+      <p><a href="https://www.instagram.com/pimentelfe7777777/" target="_blank">@pimentelfe7777777</a></p>
+      <p><a href="mailto:pimentelfe777@gmail.com">pimentelfe777@gmail.com</a></p>
+    </section>
+
+  </main>
+
+  <script>
+    const nav = document.querySelector('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > window.innerHeight - 60);
+    });
+  </script>
+
+</body>
+</html>
